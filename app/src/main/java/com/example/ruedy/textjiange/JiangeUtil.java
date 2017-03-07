@@ -40,7 +40,7 @@ public class JiangeUtil {
                                     tv.setText(stv);
                                 }
                             });
-                            Thread.sleep(time);
+                            Thread.sleep(time);//休息片刻
                             nn = n + 1;//n+1；多截取一个
                             if (nn <= length) {//如果还有汉子，那么继续开启线程，相当于递归的感觉
                                 startTv(nn);
@@ -58,5 +58,6 @@ public class JiangeUtil {
 
 
     }
+
 
 }
