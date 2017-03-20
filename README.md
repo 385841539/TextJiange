@@ -4,8 +4,8 @@
 
 </br>
 
-# How to use?/如何使用？(或者直接添加JiangeUtil类就可以了)</br>
-### 1:添加依赖：
+# How to use?/如何使用？</br>
+### 1:添加依赖：(或者直接添加JiangeUtil类就可以了)
 
 >> 1.先在 build.gradle(Project:XXXX) 的 repositories 添加:</br>
 ```
