@@ -1,12 +1,13 @@
 # TextJiange</br>
-让Textview的文字一个一个显示出来，效果图：
+让Textview的文字一个一个显示出来，效果图：</br>
 ![效果图](https://github.com/385841539/TextJiange/blob/master/app/src/main/res/drawable/jiange.gif)
 
 </br>
+
 # How to use?/如何使用？(或者直接添加JiangeUtil类就可以了)</br>
 ### 1:添加依赖：
 
->> 1.先在 build.gradle(Project:XXXX) 的 repositories 添加:
+>> 1.先在 build.gradle(Project:XXXX) 的 repositories 添加:</br>
 ```
 	allprojects {
 		repositories {
@@ -16,7 +17,7 @@
 	}
 ```
 
->> 2.然后在 build.gradle(Module:app) 的 dependencies 添加:
+>> 2.然后在 build.gradle(Module:app) 的 dependencies 添加:</br>
  
  ```
  dependencies {
@@ -24,8 +25,9 @@
 	}
 ```
 
-</br>
+
 ### 2:布局文件：(主要就是TextView)
+
 ```
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -53,10 +55,13 @@
 
 ```
 
+
 ### 3:设置间隔文本:
+
 ```
   s = "与我为敌，就到这般生不如死--周瑜\n从善从良，从五斗米道--张鲁";
         jiangeUtil = new JiangeUtil(tv, s, 100);//调用构造方法，直接开启
 ```
+
 </br>这样 就简单的实现了需求和效果，
 具体实现思路请看博客http://blog.csdn.net/iamdingruihaha/article/details/60762502，有问题欢迎反馈，大家一起进步。
