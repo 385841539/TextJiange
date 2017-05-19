@@ -21,7 +21,8 @@
  
  ```
  dependencies {
-	        compile 'com.github.385841539:TextJiange:-SNAPSHOT'
+	        
+		 compile 'com.github.385841539:TextJiange:1.0.1'
 	}
 ```
 
